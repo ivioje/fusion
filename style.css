@@ -593,6 +593,7 @@ rem7,rem8 {
         margin-top: 20vh;
     }
     .awen {font-size: 3vw;}
+    button {font-size: .9em;}
  }
 
 
@@ -652,7 +653,7 @@ rem7,rem8 {
             width: 100px;
             height: 350px;
         }
-     
+        button {font-size: .9em;}
  }
 
 
@@ -713,6 +714,7 @@ rem7,rem8 {
             width: 100px;
             height: 350px;
         }
+        button {font-size: .9em;}
  }
 
 
@@ -775,6 +777,7 @@ rem7,rem8 {
             width: 100px;
             height: 350px;
         }
+        button {font-size: .9em;}
  }
 
 
@@ -794,6 +797,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         width: 100px;
         height: 350px;
     }
+    button {font-size: .9em;}
 
 }
 
