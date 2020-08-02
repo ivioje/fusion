@@ -584,7 +584,7 @@ rem7,rem8 {
     margin-top: 5vh;
 }
   .awe1 {
-      width: 30%;
+      width: 40%;
       height: 40px;
  font-size: .6em;
     } 
@@ -593,8 +593,11 @@ rem7,rem8 {
         margin-top: 20vh;
     }
     .awen {font-size: 3vw;}
-    button {font-size: .9em;}
+    button {font-size: .7em;}
+
+    .navbar-toggler-icon {width: 20px; }
  }
+
 
 
 @media screen and (max-width: 768px) { 
@@ -653,7 +656,13 @@ rem7,rem8 {
             width: 100px;
             height: 350px;
         }
-        button {font-size: .9em;}
+        .awe1 {
+            width: 40%;
+            height: 40px;
+       font-size: .6em;
+          }
+        button {font-size: .7em;}
+        .navbar-toggler-icon {width: 20px; }
  }
 
 
@@ -714,7 +723,13 @@ rem7,rem8 {
             width: 100px;
             height: 350px;
         }
-        button {font-size: .9em;}
+        .awe1 {
+            width: 40%;
+            height: 40px;
+       font-size: .6em;
+          }
+        button {font-size: .7em;}
+        .navbar-toggler-icon {width: 20px; }
  }
 
 
@@ -777,7 +792,13 @@ rem7,rem8 {
             width: 100px;
             height: 350px;
         }
-        button {font-size: .9em;}
+        .awe1 {
+            width: 40%;
+            height: 40px;
+       font-size: .6em;
+          }
+        button {font-size: .7em;}
+        .navbar-toggler-icon {width: 20px; }
  }
 
 
@@ -797,7 +818,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
         width: 100px;
         height: 350px;
     }
-    button {font-size: .9em;}
+    button {font-size: .7em;}
+    .navbar-toggler-icon {width: 20px; }
 
 }
 
@@ -817,7 +839,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         width: 100px;
         height: 350px;
     }
-
+    .navbar-toggler-icon {width: 20px; }
 }
 
 /* ----------- iPad Pro 10.5" ----------- */
@@ -838,6 +860,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         width: 100px;
         height: 350px;
     }
+    .navbar-toggler-icon {width: 20px; }
 }
 
 /* Portrait and Landscape */
@@ -856,4 +879,5 @@ and (-webkit-min-device-pixel-ratio: 1) {
         width: 100px;
         height: 350px;
     }
+    .navbar-toggler-icon {width: 20px; }
 }
