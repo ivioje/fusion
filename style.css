@@ -1,0 +1,855 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: auto 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'monsterrat';
+}
+
+button {
+    border-radius: 30px;
+    height: 40px;
+    width: 30%;
+    border: 1px solid crimson;
+    background-color: crimson;
+    color: white;
+    transition: 0.2s ease-in;
+    margin-top: 2%;
+}
+ 
+button:hover {
+    color: crimson;
+    background-color: white;
+}
+
+nav {
+   margin-left: 60%; 
+}
+
+/* .nav-link:hover {
+  color: red;
+} */
+.gate {
+    margin-left: 15%;
+}
+
+#content {
+    margin-top: 30px;
+}
+
+a:active {
+    color: red;
+}
+
+.card {
+    -webkit-box-shadow: 5px 5px 54px 0px rgba(214, 209, 209, 0.76);
+    -moz-box-shadow: 5px 5px 54px 0px rgba(243, 243, 243, 0.76);
+    box-shadow: 5px 5px 54px 0px rgba(236, 235, 235, 0.76);
+    height: 250px;
+    background-color: transparent;
+}
+
+
+
+cards, abstract{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.neck,.tail,.abs2,.abs3 {
+    margin-left: 3%;
+}
+
+abstract {
+    margin-top: 5vh;
+}
+.lead {
+    text-align: center;
+}
+
+.card-text {
+    font-size: 0.8em;
+}
+.card-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.card-body {
+    
+    text-align: center;
+}
+
+
+.serve {
+    width: 5%;
+    background-color: red;
+}
+
+cards {
+    margin-top: 10vh;
+}
+
+.contain-sub {
+    margin-top: 10vh;
+    background-color: rgb(241, 239, 239);
+    margin-bottom: 5vh;
+}
+
+.nav-ico {
+display: flex;
+margin-top: 1vh;
+padding-left: 5%;
+float: left;
+}
+
+.heading {
+    color: rgb(202, 5, 45);
+    font-size: 2em;
+}
+
+
+.twist {
+    height: 3em;
+    width: 25%;
+    margin-top: 5vh;
+    background: crimson;
+    color: white;
+}
+
+.lil {
+    color: crimson;
+    border: 1px solid rgb(253, 248, 248);
+    border-width: 30px 30px 30px 30px;
+    border-radius: 50px;
+    display: flex;
+     align-items: center;
+   justify-content: center;
+
+    background-color: rgb(253, 248, 248);
+}
+
+i {
+font-size: 2em;
+}
+
+.grid1 {
+    display: flex;
+}
+
+.cont {
+    display: block;
+}
+
+.nod {
+    -webkit-box-shadow: 5px 5px 54px 0px rgba(214, 209, 209, 0.76);
+    -moz-box-shadow: 5px 5px 54px 0px rgba(243, 243, 243, 0.76);
+    box-shadow: 5px 5px 54px 0px rgba(236, 235, 235, 0.76);
+    border: 1px solid rgba(243, 243, 243, 0.76);
+    height: 140px;
+    width: 90%;
+    background-color: transparent;
+    display: flex;
+    margin-top: 3vh;
+}
+
+.con {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p1,.p2,.p3,.p4,.p5,.p6 {
+    font-size: .9em;
+    width: 75%;
+    line-height: 1.7em;
+    color: gray;
+    text-align: center;
+}
+
+.fast,.slow {
+    color: crimson;
+    font-size: 1.6em;
+    margin-top: 3vh;
+}
+
+.last {
+    font-size: 1em;
+    color: crimson;
+    margin-top: 5vh;
+}
+
+rem3,rem4,rem5 {
+    margin-left:15px;
+}
+
+
+.containing {
+    background-color: rgb(241, 239, 239);
+    margin-top: 5vh;
+}
+.zone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mii {
+    margin-bottom: 5vh;
+}
+
+
+/* .zone {
+    display: grid;
+    grid-gap: 20px;
+    border: 1px solid black;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+} */
+.green {
+    display: flex;
+    width: 35%;
+}
+.tar1,.en1,.t1 {
+margin-left: 5%;
+}
+.t1 {
+    margin-top: 2vh;
+}
+rem7,rem8 {
+    display: flex;
+}
+rem8 {
+    margin-left: 5%;
+}
+part {
+    display: block;
+
+    background-color: white;
+}
+.t1 {
+    font-size: .8em;
+    width: 60%
+}
+
+.tar1 {
+    font-size: 1.2em;
+}
+
+.ii {
+    margin-top: 2%;
+}
+
+.t1 .foo {
+    font-size: 1em;
+    margin-left: 5px;
+}
+.ti{
+    color: blue;
+}
+.pi {
+    color: rgb(65, 65, 240);
+}
+.ki {
+    color: crimson;
+}
+.tin,.tin1,.tin2 {
+    width: 150px;
+    height: 400px;
+}
+.tin:hover,.tin1:hover,.tin2:hover {
+    -webkit-box-shadow: 5px 5px 54px 0px rgba(202, 195, 195, 0.76);
+    -moz-box-shadow: 5px 5px 54px 0px rgba(202, 195, 195, 0.76);
+    box-shadow: 5px 5px 54px 0px rgba(202, 195, 195, 0.76);
+   overflow-x: hidden;
+   overflow-y: hidden;
+    transition: .5s ease-in-out;
+    transform: scale(1.1);
+}
+.pat{display: flex; align-items: center; justify-content: center;  border-width: 20px; border-color: rgb(241, 236, 236);}
+.pat:hover {
+    background-color: crimson;
+    color: white;
+    border-color: crimson;
+}
+don {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+#tie{margin-top: 1%;}
+h6 {color: gray; font-weight: 400;}
+.don1{
+    color: crimson;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.pro{font-size: 1.2em; font-weight: bold;}
+.buy {
+    margin-top: 2vh;
+    width: 50%;
+    background-color: crimson;
+    color: white;
+    height: 40px;
+    border-radius: 50px;
+}
+.mit,.mit1,.mit2 {text-align: center;}
+
+.major {
+    background-color: crimson;
+}
+
+.conts {
+    margin: 30px auto;
+    width: 90%;
+}
+.ail {
+    border: 0px;
+    -webkit-box-shadow: 0px 0px 0px 0px ;
+    -moz-box-shadow: 0px 0px 0px 0px ;
+    box-shadow: 0px 0px 0px 0px ;
+    background-color: white;
+   height: 350px;
+}
+ 
+.carousel {
+    height: 500px;
+    position:relative;
+    overflow: hidden;
+}
+
+.slider {
+    height: 100%;
+    display: flex;
+    width: 400%;
+    transition: all 1.2s;
+}
+
+.slider section {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+li {
+   width: 14px;
+   height: 14px;
+   border: 2px solid white;
+   border-radius: 50px;
+   margin: 10px;
+   background: white;
+   cursor: pointer;
+}
+li.selected {
+    background: transparent;
+}
+
+.round {
+    border-radius: 50%;
+}
+.houd {
+    font-weight: bold;
+}
+
+.esp {margin-top: 2vh;} .pilf {font-weight: bold;}
+
+
+.rating{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateY(180deg);
+    margin-top: 20vh;
+}
+#star1,#star2,#star3,#star4,#star5 {
+    display: none;
+
+}
+label {
+    cursor: pointer;
+    display: block;
+    width: 20px;
+}
+
+label::before {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    color: rgb(179, 168, 168);
+    font-size: 15px;
+}
+
+.rating label::after {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    color: crimson;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 1px 1px 0px rgb(231, 21, 63, .5);
+}
+
+label:hover::after,
+label:hover ~ label::after,
+input:checked ~ label::after
+{
+   opacity: 1;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    margin-top: 0px;
+}
+.awesome,.thrill {
+    text-align: center;
+    width: 50%;
+}
+.awesome {
+    order: 1;
+}
+.thrill {
+    order: 2;
+}
+.awen {color: gray; font-weight: 500;}
+.awe {
+    font-size: 4vw;
+    font-weight: bolder;
+}
+.awe1 {
+  background: crimson;
+  color: white;
+  font-size: .9em;
+  width: 20%;
+  height: 40px;
+}
+ 
+.contact {
+    margin-top: 15vh;
+    background-color: rgb(241, 239, 239);
+}
+
+.layout {
+    display: block;
+}
+
+#md-row {
+    margin-left: 7%;
+}
+.emaili {
+    margin-left: 4%;
+}
+
+#aih {width: 40%;}
+.cart {
+    margin-top: 3%;
+}
+.subi {
+    width: 85%;
+}
+.space {
+    margin-top: 3%;
+}
+.R-1{border: 0px;}
+.SPK {margin-left: 2%;}
+.hir {margin-top: 3vh; margin-bottom: 10vh;}
+
+#txtarea {width: 85%;}
+.nan { margin-left: 40%;}
+.mr-3 ,.mr-4{
+    font-size: 1em;
+} 
+
+.same {
+    font-size: 1em;
+    color: rgb(54, 52, 52);
+}
+
+.al {color: crimson;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) { 
+    cards,abstract {
+        display: block;
+    }
+
+    .grid1 {
+        display: block;
+    }
+
+    .img1 {
+   width: 400px;
+   height: 300px;
+    } 
+
+    .neck,.tail,.abs2,.abs3 {
+        margin-top: 3vh;
+    }
+
+    .lil {
+        border-width: 15px 15px 15px 15px;
+    }
+    .twist {
+        height: 3em;
+        width: 50%;
+    }
+    i {
+        font-size: 1.5em;
+    }
+    .top {
+        width: 50px;
+        height: 250px;
+    }
+    .w-100 {
+        width: 100px;
+        height: 350px;
+    }
+    .gate {
+        margin-left: 5%;
+    }
+    .card-text {
+        font-size: .9em;
+    }
+    .green,.zone {
+        display: block;
+    }
+ 
+    .ig1 {
+        height: 170px;
+    }
+
+    .t1 {
+        width: 200px;
+        height: 150px;
+    }
+    part {
+        width: 270px;
+        height: 170px;
+    }
+    .en1,.t1 {
+        font-size: 1em;
+    }
+    .containing,clas,pass {
+        display: block;
+    }
+rem7,rem8 {
+    margin-top: 5vh;
+}
+  .awe1 {
+      width: 30%;
+      height: 40px;
+ font-size: .6em;
+    } 
+
+    .contact {
+        margin-top: 20vh;
+    }
+    .awen {font-size: 3vw;}
+ }
+
+
+@media screen and (max-width: 768px) { 
+    cards,abstract {
+        display: block;
+    }
+    .grid1 {
+        display: block;
+    }
+    .img1 {
+        width: 400px;
+        height: 300px;
+         } 
+         .neck,.tail,.abs2,.abs3 {
+            margin-top: 3vh;
+        }
+        .lil {
+            border-width: 15px 15px 15px 15px;
+        }
+        i {
+            font-size: 1.5em;
+        }
+        .gate {
+            margin-left: 5%;
+        }
+        .card-text {
+            font-size: .9em;
+        }
+        .twist {
+            height: 3em;
+            width: 50%;
+        }
+        .containing,clas,pass {
+            display: block;
+        }
+        .green,.zone {
+            display: block;
+        }
+     .ig1 {
+         height: 170px;
+     }
+    
+        .t1 {
+            width: 200px;
+            height: 150px;
+        }
+        part {
+            width: 270px;
+            height: 170px;
+        }
+        .contact {
+            margin-top: 20vh;
+        }
+        .awen {font-size: 3vw;}
+        .w-100 {
+            width: 100px;
+            height: 350px;
+        }
+     
+ }
+
+
+@media screen and (max-width: 992px) { 
+    cards,abstract {
+        display: block;
+    }
+    .grid1 {
+        display: block;
+    }
+    .img1 {
+        width: 400px;
+        height: 300px;
+         } 
+         .neck,.tail,.abs2,.abs3 {
+            margin-top: 3vh;
+        }
+
+        .lil {
+            border-width: 15px 15px 15px 15px;
+        }
+        i {
+            font-size: 1.5em;
+        }
+        .gate {
+            margin-left: 5%;
+        }
+        .card-text {
+            font-size: .9em;
+        }
+        .twist {
+            height: 3em;
+            width: 50%;
+        }
+        .green,.zone {
+            display: block;
+        }
+       .ig1{
+           height: 170px;
+       }
+    
+        .t1 {
+            width: 200px;
+            height: 150px;
+        }
+        part {
+            width: 270px;
+            height: 170px;
+        }
+        .containing,clas,pass {
+            display: block;
+        }
+        .contact {
+            margin-top: 20vh;
+        }
+        .awen {font-size: 3vw;}
+        .w-100 {
+            width: 100px;
+            height: 350px;
+        }
+ }
+
+
+@media screen and (max-width: 1200px) { 
+    cards,abstract {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .grid1 {
+        display: block;
+    }
+    .img1 {
+        width: 400px;
+        height: 300px;
+         } 
+         .neck,.tail,.abs2,.abs3 {
+             margin-top: 3vh;
+         }
+
+         .lil {
+            border-width: 15px 15px 15px 15px;
+        }
+        i {
+            font-size: 1.5em;
+        }
+        .gate {
+            margin-left: 5%;
+        }
+        .card-text {
+            font-size: .9em;
+        }
+        .twist {
+            height: 3em;
+            width: 50%;
+        }
+        .green,.zone {
+            display: block;
+            
+        }
+      .ig1{
+           height: 170px;
+      }
+    
+        .t1 {
+            width: 200px;
+            height: 150px;
+        }
+        part {
+            width: 270px;
+            height: 170px;
+        }
+        .containing,clas,pass {
+            display: block;
+        }
+        .contact {
+            margin-top: 20vh;
+        }
+        .awen {font-size: 3vw;}
+        .w-100 {
+            width: 100px;
+            height: 350px;
+        }
+ }
+
+
+ /* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    .zone,clas {
+        display: inline-block;
+      text-align: center;
+    }
+    .tii {
+        margin-top: 5vh;
+    }
+    .w-100 {
+        width: 100px;
+        height: 350px;
+    }
+
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .zone,clas {
+      display: inline-block;
+     text-align: center;
+    }
+    .tii {
+        margin-top: 5vh;
+    }
+    .w-100 {
+        width: 100px;
+        height: 350px;
+    }
+
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .zone,clas {
+        display: inline-block;
+       text-align: center;
+      }
+      .tii {
+          margin-top: 5vh;
+      }
+      .w-100 {
+        width: 100px;
+        height: 350px;
+    }
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .zone,clas {
+        display: inline-block;
+       text-align: center;
+      }
+      .tii {
+          margin-top: 5vh;
+      }
+      .w-100 {
+        width: 100px;
+        height: 350px;
+    }
+}
