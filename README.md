@@ -1,2 +1,1 @@
-# fusion
-https://ivioje.github.io/fusion/
+# Fusion Landing Page Project
